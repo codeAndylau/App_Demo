@@ -8,22 +8,45 @@
 
 import UIKit
 
-class MineViewController: BaseViewController {
+class MineViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupUI()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        tableView.sendSubviewToBack(view)
     }
-    */
+    
+    lazy var backView: MineView = {
+        let v = MineView(frame: CGRect(x: 0, y: 0, width: kScreenW, height: kScreenH))
+        v.backgroundColor = UIColor.cyan
+        return v
+    }()
+    
+}
 
+extension MineViewController {
+     
+    func setupUI() {
+        navigationController?.navigationBar.isHidden = true
+//        view.addSubview(tableView)
+//        tableView.addSubview(backView)
+        
+        extendedLayoutIncludesOpaqueBars = true
+        if #available(iOS 11.0, *) {
+            tableView.contentInsetAdjustmentBehavior = .never
+        }else {
+            automaticallyAdjustsScrollViewInsets = false
+        }
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        
+    }
+    
 }

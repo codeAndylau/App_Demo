@@ -30,6 +30,7 @@ extension UIColor {
 }
 
 // 常用颜色
+let kTabbarColor = UIColor.hexColor(0xF0F2F5)
 let kThemeWhiteColor = UIColor.hexColor(0xFFFFFF)
 let kThemeTomatoColor = UIColor.hexColor(0xF7583B)
 let kThemeBlackColor = UIColor.hexColor(0x000000)

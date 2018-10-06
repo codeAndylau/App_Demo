@@ -56,6 +56,8 @@
 		14C450C2215CA0B300BAA201 /* ProgresssHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C450C1215CA0B300BAA201 /* ProgresssHUD.swift */; };
 		14C450C4215CD0C600BAA201 /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C450C3215CD0C600BAA201 /* HomeAPI.swift */; };
 		19DEF469EE6A85D05F0B1CA9 /* Pods_TextDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D1318455D5BFF102CC14A1 /* Pods_TextDemo.framework */; };
+		8B271E2021688A2000B70572 /* MineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B271E1F21688A2000B70572 /* MineView.swift */; };
+		8B271E242168A01100B70572 /* MineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B271E232168A01100B70572 /* MineTableViewController.swift */; };
 		9452BD2279598182342E402B /* Pods_TextDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE0ACE2F521B4E1652B9A04 /* Pods_TextDemoTests.framework */; };
 		FA54F59EEDC85BD3ACD94CB8 /* Pods_TextDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3CC6D20D5C6D2083C53392 /* Pods_TextDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -137,6 +139,8 @@
 		33B3EDAD1E37527FA7A6DD8B /* Pods-TextDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextDemoTests/Pods-TextDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		3557772A8409CB1FC86C533A /* Pods-TextDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextDemo/Pods-TextDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		41566CDED5AF5F2DC3E39C7F /* Pods-TextDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextDemo/Pods-TextDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8B271E1F21688A2000B70572 /* MineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MineView.swift; path = TextDemo/Classes/Mine/HomeLive/MineView.swift; sourceTree = SOURCE_ROOT; };
+		8B271E232168A01100B70572 /* MineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineTableViewController.swift; sourceTree = "<group>"; };
 		B1D1318455D5BFF102CC14A1 /* Pods_TextDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FC64443A05EDE0F0B88CF8 /* Pods-TextDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextDemoUITests/Pods-TextDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E5177C89DA0C85E19A9C3590 /* Pods-TextDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextDemoUITests/Pods-TextDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -483,6 +487,7 @@
 			isa = PBXGroup;
 			children = (
 				142FBF2A215E02D800003C00 /* MineViewController.swift */,
+				8B271E232168A01100B70572 /* MineTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -497,6 +502,7 @@
 		1422F8D6215B770D00EAE5B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8B271E1F21688A2000B70572 /* MineView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1003,6 +1009,7 @@
 				142FBF1D215DD39800003C00 /* HomeLiveVC.swift in Sources */,
 				142FBF2D215E10CE00003C00 /* GuidePageHUD.swift in Sources */,
 				1422F8FF215B804B00EAE5B9 /* CAGradientLayer+Extension.swift in Sources */,
+				8B271E242168A01100B70572 /* MineTableViewController.swift in Sources */,
 				14C450C0215C7ED500BAA201 /* UIImageView+Extension.swift in Sources */,
 				142FBF31215E25A900003C00 /* HomeModel.swift in Sources */,
 				14C450C2215CA0B300BAA201 /* ProgresssHUD.swift in Sources */,
@@ -1019,6 +1026,7 @@
 				1422F909215B867C00EAE5B9 /* Struct.swift in Sources */,
 				1422F90B215B86AC00EAE5B9 /* Enum.swift in Sources */,
 				1422F8F1215B7B2400EAE5B9 /* UIColor+Extension.swift in Sources */,
+				8B271E2021688A2000B70572 /* MineView.swift in Sources */,
 				1422F8FB215B7EE600EAE5B9 /* TimeInterval+Extension.swift in Sources */,
 				1422F903215B825100EAE5B9 /* UIBarButtonItem+Extension.swift in Sources */,
 			);

@@ -23,11 +23,6 @@ class ViewController: UIViewController {
         let arr = [1,1,22,3,5,33]
         printLog("返回数组的随机元素---\(arr.sample ?? 0)")
         
-        printLog("iOS --- \(IS_IPhone_X)")
-        printLog("iOS --- \(IS_IPhone_Xr)")
-        printLog("iOS --- \(IS_IPhone_Xs)")
-        printLog("iOS --- \(IS_IPhone_Xs_Max)")
-        
         
     }
 

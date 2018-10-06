@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeLiveVC: UIViewController {
+class HomeLiveVC: BaseViewController {
 
     @IBOutlet weak var tbView: UITableView!
     
@@ -16,7 +16,8 @@ class HomeLiveVC: UIViewController {
         super.viewDidLoad()
         tbView.estimatedRowHeight = 80
         tbView.rowHeight = UITableView.automaticDimension
-        ApplicationService.navbarAppearanceConfig(self.navigationController!.navigationBar)
+        
+        rt_disableInteractivePop = true
     }
     
 

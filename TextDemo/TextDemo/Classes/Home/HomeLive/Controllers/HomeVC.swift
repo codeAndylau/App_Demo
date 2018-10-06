@@ -57,24 +57,26 @@ class HomeVC: BaseViewController {
 //        btn.bringSubviewToFront(self.view)
     }
     
-    override func loadView() {
-        // 替换主视图
-        // view = wkWebView
-        
-        /*
-         1. loadView方法用于自定义控制器的view
-         2. 调用控制器的- (void)loadView 方法就不能调用其父类的方法
-         3. 可以用来自己定义控制器的view
-         
-         4. 重写loadView可以减少使用内存，直接帮你创建控制器最想要的View
-         5. 如果控制器一开始就想要展示一张图片或者是加载一个网页（webView）可以让控制器的View是iamgeView或者是webView（如上所示）
-         */
-    }
+//    override func loadView() {
+//        // 替换主视图
+//        // view = wkWebView
+//        
+//        /*
+//         1. loadView方法用于自定义控制器的view
+//         2. 调用控制器的- (void)loadView 方法就不能调用其父类的方法
+//         3. 可以用来自己定义控制器的view
+//         
+//         4. 重写loadView可以减少使用内存，直接帮你创建控制器最想要的View
+//         5. 如果控制器一开始就想要展示一张图片或者是加载一个网页（webView）可以让控制器的View是iamgeView或者是webView（如上所示）
+//         */
+//    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        view.backgroundColor = UIColor.white
+        
         setupUI()
         
 //        tableView.frame = CGRect(x: 0, y: 0, width: kScreenW, height: kScreenH - kTabBarH)
