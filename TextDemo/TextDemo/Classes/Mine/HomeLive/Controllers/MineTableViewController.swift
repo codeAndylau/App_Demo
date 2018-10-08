@@ -11,6 +11,16 @@ import UIKit
 class MineTableViewController: UITableViewController {
     
     @IBOutlet weak var topView: UIView!
+    @IBOutlet weak var orderView: UIView!
+    @IBOutlet weak var serviceView: UIView!
+    @IBOutlet weak var settingView: UIView!
+    
+    // 设置状态栏颜色
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        get {
+            return .lightContent
+        }
+    }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -24,6 +34,7 @@ class MineTableViewController: UITableViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         setCAGradientLayer()
+        setshadowColor()
     }
 
 }
@@ -57,5 +68,21 @@ extension MineTableViewController {
         topView.layer.insertSublayer(gl, at: 0)
     }
     
+    func setshadowColor() {
+        
+        let vs: [UIView] = [orderView,serviceView,settingView]
+        vs.forEach { (v) in
+    
+            v.layer.backgroundColor = UIColor(r: 255, g: 255, b: 255, alpha: 1).cgColor
+            v.layer.cornerRadius = 8
+            
+            v.layer.shadowColor = UIColor(r: 0, g: 0, b: 0, alpha: 0.1).cgColor
+            v.layer.shadowOffset = CGSize(width: 3, height: 3)
+            v.layer.shadowOpacity = 0.8
+            v.layer.shadowRadius = 3
+            v.layer.masksToBounds = false
+        }
+
+    }
     
 }

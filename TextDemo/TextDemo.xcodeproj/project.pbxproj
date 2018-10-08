@@ -42,7 +42,6 @@
 		142FBF25215E023100003C00 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FBF24215E023100003C00 /* BaseViewController.swift */; };
 		142FBF27215E029500003C00 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FBF26215E029500003C00 /* LiveViewController.swift */; };
 		142FBF29215E02B900003C00 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FBF28215E02B900003C00 /* PlayViewController.swift */; };
-		142FBF2B215E02D800003C00 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FBF2A215E02D800003C00 /* MineViewController.swift */; };
 		142FBF2D215E10CE00003C00 /* GuidePageHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FBF2C215E10CE00003C00 /* GuidePageHUD.swift */; };
 		142FBF2F215E1C7400003C00 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FBF2E215E1C7400003C00 /* RefreshView.swift */; };
 		142FBF31215E25A900003C00 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FBF30215E25A900003C00 /* HomeModel.swift */; };
@@ -58,6 +57,9 @@
 		19DEF469EE6A85D05F0B1CA9 /* Pods_TextDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D1318455D5BFF102CC14A1 /* Pods_TextDemo.framework */; };
 		8B271E2021688A2000B70572 /* MineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B271E1F21688A2000B70572 /* MineView.swift */; };
 		8B271E242168A01100B70572 /* MineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B271E232168A01100B70572 /* MineTableViewController.swift */; };
+		8BD2457A2169C99B0067E968 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD245792169C99B0067E968 /* Login.storyboard */; };
+		8BD2457C2169D5A80067E968 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2457B2169D5A80067E968 /* LoginTableViewController.swift */; };
+		8BD2457E2169E60C0067E968 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2457D2169E60C0067E968 /* LoginViewController.swift */; };
 		9452BD2279598182342E402B /* Pods_TextDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE0ACE2F521B4E1652B9A04 /* Pods_TextDemoTests.framework */; };
 		FA54F59EEDC85BD3ACD94CB8 /* Pods_TextDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3CC6D20D5C6D2083C53392 /* Pods_TextDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -121,7 +123,6 @@
 		142FBF24215E023100003C00 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		142FBF26215E029500003C00 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		142FBF28215E02B900003C00 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
-		142FBF2A215E02D800003C00 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		142FBF2C215E10CE00003C00 /* GuidePageHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidePageHUD.swift; sourceTree = "<group>"; };
 		142FBF2E215E1C7400003C00 /* RefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
 		142FBF30215E25A900003C00 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
@@ -141,6 +142,9 @@
 		41566CDED5AF5F2DC3E39C7F /* Pods-TextDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextDemo/Pods-TextDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8B271E1F21688A2000B70572 /* MineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MineView.swift; path = TextDemo/Classes/Mine/HomeLive/MineView.swift; sourceTree = SOURCE_ROOT; };
 		8B271E232168A01100B70572 /* MineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineTableViewController.swift; sourceTree = "<group>"; };
+		8BD245792169C99B0067E968 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Login.storyboard; path = TextDemo/Classes/Mine/HomeLive/Controllers/Login.storyboard; sourceTree = SOURCE_ROOT; };
+		8BD2457B2169D5A80067E968 /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginTableViewController.swift; path = TextDemo/Classes/Mine/HomeLive/Controllers/LoginTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		8BD2457D2169E60C0067E968 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = TextDemo/Classes/Mine/HomeLive/Controllers/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
 		B1D1318455D5BFF102CC14A1 /* Pods_TextDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FC64443A05EDE0F0B88CF8 /* Pods-TextDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextDemoUITests/Pods-TextDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E5177C89DA0C85E19A9C3590 /* Pods-TextDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextDemoUITests/Pods-TextDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -448,6 +452,9 @@
 		1422F8D0215B770D00EAE5B9 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				8BD245792169C99B0067E968 /* Login.storyboard */,
+				8BD2457B2169D5A80067E968 /* LoginTableViewController.swift */,
+				8BD2457D2169E60C0067E968 /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -486,7 +493,6 @@
 		1422F8D4215B770D00EAE5B9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				142FBF2A215E02D800003C00 /* MineViewController.swift */,
 				8B271E232168A01100B70572 /* MineTableViewController.swift */,
 			);
 			path = Controllers;
@@ -834,6 +840,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD2457A2169C99B0067E968 /* Login.storyboard in Resources */,
 				1422F893215B76E900EAE5B9 /* LaunchScreen.storyboard in Resources */,
 				1422F890215B76E900EAE5B9 /* Assets.xcassets in Resources */,
 				1422F88B215B76E800EAE5B9 /* Main.storyboard in Resources */,
@@ -988,6 +995,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD2457E2169E60C0067E968 /* LoginViewController.swift in Sources */,
 				1422F8F5215B7CEF00EAE5B9 /* UIView+Extension.swift in Sources */,
 				142FBF21215DDD8500003C00 /* HomeVC.swift in Sources */,
 				142FBF1F215DDA7C00003C00 /* ApplicationService.swift in Sources */,
@@ -1000,6 +1008,7 @@
 				1470F03A215C758600593707 /* Array+Extension.swift in Sources */,
 				142FBF33215E25E200003C00 /* HomeViewModel.swift in Sources */,
 				143F8C9621606A74008786BF /* UILabel+Extension.swift in Sources */,
+				8BD2457C2169D5A80067E968 /* LoginTableViewController.swift in Sources */,
 				1422F886215B76E800EAE5B9 /* AppDelegate.swift in Sources */,
 				142FBF27215E029500003C00 /* LiveViewController.swift in Sources */,
 				1422F8F3215B7C0300EAE5B9 /* UIImage+Extension.swift in Sources */,
@@ -1018,7 +1027,6 @@
 				142FBF23215DF98500003C00 /* RootNavigationViewController.swift in Sources */,
 				14C450BE215C7D2200BAA201 /* LCViewModelType.swift in Sources */,
 				1422F8FD215B7F4A00EAE5B9 /* Date+Extension.swift in Sources */,
-				142FBF2B215E02D800003C00 /* MineViewController.swift in Sources */,
 				14C450BC215C7C7900BAA201 /* LCLoadXib.swift in Sources */,
 				1422F88E215B76E800EAE5B9 /* TextDemo.xcdatamodeld in Sources */,
 				1422F8F9215B7E7A00EAE5B9 /* UserDefaults+Extension.swift in Sources */,

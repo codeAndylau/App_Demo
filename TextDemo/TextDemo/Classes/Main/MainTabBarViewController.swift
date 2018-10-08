@@ -21,7 +21,7 @@ extension MainTabBarViewController {
     func setupUI() {
         ApplicationService.navbarConfig()
         ApplicationService.tabbarConfig()
-        ApplicationService.tabbarAppearanceConfig(self.tabBar)
+        //ApplicationService.tabbarAppearanceConfig(self.tabBar)
     }
     
 }

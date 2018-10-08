@@ -12,6 +12,7 @@ class PlayViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor.hexColor(0xf5f5f5)
         // Do any additional setup after loading the view.
     }
     

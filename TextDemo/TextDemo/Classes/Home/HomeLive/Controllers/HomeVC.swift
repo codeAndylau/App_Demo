@@ -31,6 +31,10 @@ class HomeVC: BaseViewController {
     
     @IBAction func btnAction(_ sender: UIButton) {
         printLog("测试单列1---\(HomeViewModel.homeModel)")
+        
+        
+        let rootVC = UIStoryboard.init(name: "Login", bundle: nil).instantiateViewController(withIdentifier: "LoginIdentity") as! UINavigationController
+        self.present(rootVC, animated: true, completion: nil)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -75,7 +79,7 @@ class HomeVC: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = UIColor.hexColor(0xf5f5f5)
         
         setupUI()
         

@@ -28,7 +28,6 @@
                                 </state>
                                 <connections>
                                     <action selector="btnAction:" destination="hhi-X1-me2" eventType="touchUpInside" id="5Bh-4y-ZHR"/>
-                                    <segue destination="vWl-Jn-fLC" kind="show" id="93b-wm-xse"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -123,7 +122,4 @@
             <point key="canvasLocation" x="1566" y="-433"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="M2Y-T4-qWV"/>
-    </inferredMetricsTieBreakers>
 </document>
